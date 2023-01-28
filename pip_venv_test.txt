@@ -1,0 +1,186 @@
+Estás desarrollando un proyecto en Python que utiliza diferentes paquetes de terceros en versiones muy especificas. ¿Cuál es la mejor forma de trabajar con el resto de mi equipo para que siempre instalen esos paquetes en esas versiones cuando clonen el proyecto?
+
+a
+Indicando en el README la lista de archivos donde usamos esos paquetes para que puedan leerlos e instalarlos uno por uno en las versiones correctas.
+
+b
+Copiando y pegando en el README el comando de pip con todos los paquetes y versiones correctas para realizar la instalación con un solo comando muy largo.
+
+c
+Creando un README y dejando la lista de paquetes y sus versiones para que la otra persona las instale una por una.
+
+d -
+Creando un requirements.txt con todos los paquetes y sus versiones e indicando en el README que instalen las dependencias leyendo ese archivo con pip.
+
+
+
+¿Con qué comando instalamos el paquete requests en su versión 2.27.1?
+
+a
+pip install requests@2.27.1
+
+b -
+pip install requests==2.27.1
+
+c
+pip install requests
+
+d
+pip install requests -v 2.27.1
+
+
+
+¿Qué herraminta nos permite aislar y encapsular nuestros proyectos y los paquetes de terceros que este utilice, aunque la versión de Python y el sistema operativo sigan siendo los mismos para todos los proyectos?
+
+a
+Docker
+
+b -
+venv
+
+c
+pip
+
+d
+GitHub
+
+
+
+¿Con qué comando guardamos el nombre y versión de todos los paquetes de terceros en nuestro proyecto dentro de un archivo de texto?
+
+a -
+pip3 freeze > requirements.txt
+
+b
+pip3 install > requirements.txt
+
+c
+pip3 install -r > requirements.txt
+
+d
+No es posible guardar esa información en un archivo de texto.
+
+e
+pip3 freeze -r requirements.txt
+
+
+
+¿Qué es un entorno virtual?
+
+a
+La herramienta de Python para agrupar o unificar proyectos para que todos usen los mismos paqutes y versiones sin afectarse entre sí.
+
+b - 
+La herramienta de Python para aislar o encapsular proyectos con sus propios paqutes y versiones sin afectar a otros proyectos y entornos virtuales.
+
+
+
+¿Con qué comando creamos entornos virtuales en Python 3?
+
+a
+python3 -m venv [ruta del entorno virtual]/bin/activate
+
+b
+source [ruta del entorno virtual]/bin/activate
+
+c -
+python3 -m venv [ruta del entorno virtual]
+
+d
+source [ruta del entorno virtual]
+
+
+
+¿Con qué comando activamos entornos virtuales en Python 3?
+
+a
+python3 -m venv [ruta del entorno virtual]/bin/activate
+
+b
+python3 -m venv [ruta del entorno virtual]
+
+c -
+source [ruta del entorno virtual]/bin/activate
+
+d
+source [ruta del entorno virtual]
+
+
+
+¿Qué herramienta nos permite instalar paquetes de Python como dependencias en nuestros proyectos?
+
+a
+venv
+
+b
+GitHub
+
+c -
+pip
+
+d
+Docker
+
+
+
+¿Qué herramienta nos permite trabajar con entornos virtuales en Python 3?
+
+a
+Docker
+
+b -
+venv
+
+c
+pip
+
+d
+GitHub
+
+
+
+Git y GitHub son herramientas indispensables para trabajar en equipo cuando usamos Python.
+
+a
+Falso
+
+b -
+Verdadero
+
+
+
+¿Con qué comando instalamos el paquete FastAPI en su última versión estable (sin importar la fecha en que se ejecute ni las viejas o nuevas versiones que se desarrollen de FastAPI).
+
+a -
+pip install fastapi
+
+b
+pip install fastapi@last
+
+c
+pip install fastapi -v last
+
+d
+pip install fastapi==last
+
+
+
+Tienes un archivo de texto llamado requirements.txt con todos los paquetes que necesitas con cierta versión en particular. ¿Cómo los instalas todos leyendo el archivo de texto con un solo comando?
+
+
+a
+No es posible instalar dependencias leyendo un archivo de texto.
+
+
+b
+pip3 install > requirements.txt
+
+c
+pip3 freeze > requirements.txt
+
+d -
+pip3 install -r requirements.txt
+
+
+e
+pip3 freeze -r requirements.txt
